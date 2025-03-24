@@ -14,7 +14,7 @@ class CdkS3BucketStack(Stack):
         bucket = s3.Bucket(
             self, 
             "MyS3Bucket",
-            bucket_name="demo-cdk-code-catalyst-sathish",  
+            bucket_name="demo-cdk-code-catalyst-sathishjagana",  
             encryption=s3.BucketEncryption.S3_MANAGED,  # Enable server-side encryption
             block_public_access=s3.BlockPublicAccess.BLOCK_ALL,  # Block all public access
             removal_policy=RemovalPolicy.RETAIN,  # Retain the bucket when stack is destroyed
